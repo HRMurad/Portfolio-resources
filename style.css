@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+}
+
+
+/* Navbar*/
+.navSection{
+    background-color: #FFF8F3;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+
+}
+
+.title{
+    color: #181818;
+    font-size: 45px;
+}
+
+.titleColor{
+    color:#FD6E0A ;
+}
+
+.navMains{
+    display: flex;
+}
+
+.navMains button{
+    width: 79px;
+    height: 27px;
+    background-color: #FD6E0A;
+    color: white;
+}
+.navAdrress{
+    width: 189px;
+    height: 27px;
+}
+
+.navAddOne{
+    margin-right: 25px;
+}
+
+/*..bodybanner..*/
+
+.bodySection{
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+   
+}
+
+.bodymain{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.profileAddress{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileAddress p{
+
+}
+
+.proAddress p{
+width: 400px;
+}
+.imgOne{
+    width: 300px;
+    height: 300px;
+    background-position: right;
+}
+
+.imgTwo{
+    width: 100px;
+    height: 300px;
+    background-position: left;
+}
+
+
+/*...detail section*/
+
+.detailSection{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.detailBody{
+    width: 640px;
+    background-color: #FFF8F3;
+    padding: 30px 30px;
+}
+
+.detail p{
+    padding: 5px 105px;
+}
+
+.detailName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailName div{
+    margin-right: 20px;
+}
+
+
+.skillSection{
+    margin: 30px;
+}
+.skillDetails{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 160px;
+
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 19px 120px;
+
+}
+
+.skills div{
+    width: 140px;
+    background-color: #dac6c6;
+}
+
+.summarySection h1{
+    text-align: center;
+}
+
+.summarySection {
+    text-align: center;
+}
+.summaryButton button{
+    text-align: center;
+    background-color: #FD6E0A;
+    color: white;
+}
+.summary-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 36px 255px;
+}
+
+.left-side{
+    width: 250px;
+    margin-right: 50px;
+}
+.right-side{
+    width: 250px;
+}
+
+.footerbody{
+    display: flex;
+    /* padding: 60px 120px; */
+    justify-content: space-evenly;
+    background-color: #FFF8F3;
+    padding: 30px;
+}
+
+.left-side-footer{
+    width: 300px;
+}
+
+.right-side-footer{
+    width: 300px;
+}
+
+.right-side-footer input,textarea{
+    border: none;
+    margin-bottom: 5px;
+}
